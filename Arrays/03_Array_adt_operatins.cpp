@@ -1,5 +1,6 @@
-#include"Array.h"
 #include<iostream>
+#include<algorithm>
+#include"Array.h"
 
 template<class T>
 void appendArray(Array<T>& dest,const Array<T>&src){
